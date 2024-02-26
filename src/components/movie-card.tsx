@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 
-const MovieCard = ({ data, displayType, isRated }) => {
+const MovieCard = (props: any) => {
+  const { data, displayType, isRated } = props;
   const location = useLocation();
 
   return (
