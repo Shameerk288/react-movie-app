@@ -3,7 +3,7 @@ export const login = async () => {
     {
         headers:{
             Authorization:             
-                "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2NTBlZDA3MTYwMmQ3MDU2ODFlN2U2YTM2MGMxMmVkNiIsInN1YiI6IjY1Y2JkMGJhOGMwYTQ4MDE3Y2I4NmVkNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.oi6no8lz4tDhvjMxjPDGQdNHjZ3hrO7F3QyBmznGS7o"            
+                "Bearer"            
         },
     })
 
